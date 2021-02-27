@@ -1,7 +1,7 @@
 <template>
 <header>
     <nav>
-        <router-link to="/" class="logo">
+        <router-link :to="{name: 'Home'}" class="logo">
             <img src="@/assets/ranek.svg" alt="Ranek">
         </router-link>
         <router-link to="/login" class="btn">
