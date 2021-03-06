@@ -62,6 +62,7 @@ img {
   transition: all 0.3s;
   border: none;
   font-family: 'Nunito', Arial, Helvetica, sans-serif;
+  margin-bottom: 15px;
   cursor: pointer;
 }
 
@@ -78,5 +79,21 @@ img {
 
 #main {
   flex: 1;
+}
+
+input, textarea {
+  border: 1px solid white;
+  border-radius: 4px;
+  padding: 15px;
+  box-shadow: 0 4px 8px rgba(30, 60, 90, 0.1);
+  font-size: 1rem;
+  font-family: Helvetica, Arial,  sans-serif;
+}
+
+input:hover, textarea:hover,
+input:focus, textarea:focus {
+  box-shadow: 0 6px 12px rgba(30, 60, 90, 0.2);
+  border-color: #87f;
+  outline: none;
 }
 </style>
