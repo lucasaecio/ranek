@@ -15,7 +15,7 @@
             <p class="sem-resultados">Busca sem resultado, tente buscar outro termo.</p>
         </div>
         <div v-else>
-
+          <LoadingPage/>
         </div>
   </section>
 </template>
@@ -33,7 +33,7 @@ export default {
     data() {
         return {
             produtos: null,
-            produtosPorPagina: 3,
+            produtosPorPagina: 9,
             produtosTotal: 0
         }
     },
@@ -45,11 +45,16 @@ export default {
     },
     methods: {
         getProdutos() {
+          this.produtos = null;
+
+          window.setTimeout(() => {
             api.get(this.url)
             .then(response => {
                 this.produtosTotal = Number(response.headers['x-total-count']);
                 this.produtos = response.data
             })
+          }, 500)
+           
         }
     },
     watch: {
