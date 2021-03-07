@@ -1,10 +1,12 @@
 <template>
   <ul v-if="paginasTotal > 1">
-    <li v-for="pagina in paginasTotal" :key="pagina">
+    <router-link :to="{query: query(1)}"> &lt;&lt;&lt; </router-link>
+    <li v-for="pagina in paginas" :key="pagina">
       <router-link :to="{query: query(pagina)}" :class="{'router-link-exact-active': this.$route.query['_page'] == pagina}" exact-active-class="">
         {{pagina}}
       </router-link>
     </li>
+    <router-link :to="{query: query(paginasTotal)}"> &gt;&gt;&gt; </router-link>
   </ul>
 </template>
 
@@ -29,6 +31,22 @@ export default {
     }
   },
   computed: {
+    paginas() {
+      const currentPage = Number(this.$route.query._page);
+      const rangePage = 9;
+      const offsetRange = Math.ceil(rangePage / 2);
+      const total = this.paginasTotal;
+      const pagesArray = [];
+
+      for(let i = 1; i <= total; i++) {
+        pagesArray.push(i)
+      }
+
+      pagesArray.splice(0, currentPage - offsetRange);
+      pagesArray.splice(rangePage, total);
+
+      return pagesArray
+    },
     paginasTotal() {
       const total = this.produtosTotal / this.produtosPorPagina;
       return total !== Infinity ? Math.ceil(total) : 0;
