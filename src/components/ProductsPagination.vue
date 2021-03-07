@@ -1,7 +1,9 @@
 <template>
   <ul v-if="paginasTotal > 1">
     <li v-for="pagina in paginasTotal" :key="pagina">
-      <router-link :to="{query: query(pagina)}" >{{pagina}}</router-link>
+      <router-link :to="{query: query(pagina)}" :class="{'router-link-exact-active': this.$route.query['_page'] == pagina}" exact-active-class="">
+        {{pagina}}
+      </router-link>
     </li>
   </ul>
 </template>
