@@ -8,7 +8,7 @@
     </ul>
     <div class="info">
       <h1>{{produto.nome}}</h1>
-      <p class="preco">{{produto.preco}}</p>
+      <p class="preco">{{ valueToMoney }}</p>
       <p class="descricao">{{produto.descricao}}</p>
       <button class="btn" v-if="produto.vendido === 'false'">Comprar</button>
       <button class="btn" v-else disabled>Vendido</button>
@@ -38,6 +38,20 @@ export default {
         api.get(`/produto/${this.id}`).then(response => {
           this.produto = response.data
         })
+      }
+    },
+    computed: {
+      valueToMoney() {
+        let value = Number(this.produto.preco);
+
+        if(!isNaN(value)) {
+          return value.toLocaleString("pt-BR", {
+            style: "currency",
+            currency: "BRL"
+          });
+        } else {
+          return "";
+        }
       }
     },
     created() {
