@@ -2,6 +2,7 @@ import { createStore } from 'vuex'
 import { api } from '@/services.js'
 
 export default createStore({
+  strict: true,
   state: {
     isLoggedIn: false,
     user: {
@@ -22,7 +23,7 @@ export default createStore({
       state.isLoggedIn = payload
     },
     UPDATE_USUARIO(state, payload) {
-      state.user = payload
+      state.user = Object.assign(state.user, payload);
     }
   },
   actions: {
