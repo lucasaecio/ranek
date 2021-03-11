@@ -3,6 +3,10 @@ import Home from '../views/Home.vue'
 import Produto from '../views/Product.vue'
 import Login from '../views/Login.vue'
 import User from '../views/profile/User.vue'
+import UserProducts from '../views/profile/UserProducts.vue'
+import UserUpdate from '../views/profile/UserUpdate.vue'
+import UserPurchase from '../views/profile/UserPurchase.vue'
+import UserSale from '../views/profile/UserSale.vue'
 
 const routes = [
   {
@@ -21,8 +25,29 @@ const routes = [
     component: Login
   }, {
     path: '/user',
-    name: 'user',
-    component: User
+    component: User,
+    children: [
+      {
+        path: "",
+        name: 'user',
+        component:UserProducts
+      },
+      {
+        path: "editar",
+        name: 'user-update',
+        component:UserUpdate
+      },
+      {
+        path: "compras",
+        name: 'user-purchase',
+        component:UserPurchase
+      },
+      {
+        path: "vendas",
+        name: 'user-sale',
+        component:UserSale
+      },
+    ]
   },
 ]
 

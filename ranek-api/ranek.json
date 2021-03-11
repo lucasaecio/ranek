@@ -21,6 +21,18 @@
       "numero": "25",
       "estado": "RJ",
       "cidade": "Rio de Janeiro"
+    },
+    {
+      "id": "teste@teste.com",
+      "nome": "teste",
+      "email": "teste@teste.com",
+      "senha": "teste",
+      "cep": "51130115",
+      "rua": "Rua Marechal Juarez Távora",
+      "numero": "320",
+      "bairro": "Boa Viagem",
+      "cidade": "Recife",
+      "estado": "PE"
     }
   ],
   "produto": [

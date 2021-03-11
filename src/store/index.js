@@ -27,11 +27,30 @@ export default createStore({
     }
   },
   actions: {
-    getUsuario(context, payload) {
-      api.get(`/usuario/${payload}`).then(response => {
-        context.commit("UPDATE_USUARIO",  response.data)
-        context.commit("UPDATE_LOGIN", true)
+    getUsuario({commit}, payload) {
+      return api.get(`/usuario/${payload}`).then(response => {
+        commit("UPDATE_USUARIO",  response.data)
+        commit("UPDATE_LOGIN", true)
       })
+    },
+    setUsuario({commit}, payload) {
+      commit("UPDATE_USUARIO", {id: payload.email})
+      return api.post(`/usuario/`, payload)
+    },
+    logoutUser({commit}) {
+      commit("UPDATE_USUARIO", {
+        id: '',
+        nome: '',
+        email: '',
+        senha: '',
+        cep: '',
+        rua: '',
+        numero: '',
+        bairro: '',
+        cidade: '',
+        estado: ''
+      })
+      commit("UPDATE_LOGIN", false)
     }
   },
   modules: {
