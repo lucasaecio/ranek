@@ -467,6 +467,22 @@
       "vendido": "false",
       "descricao": "Esse é um novo tablet.",
       "fotos": null
+    },
+    {
+      "nome": "asf",
+      "preco": "12",
+      "descricao": "asf",
+      "fotos": null,
+      "usuario_id": "",
+      "id": "AymLkba"
+    },
+    {
+      "nome": "asf",
+      "preco": "12",
+      "descricao": "asf",
+      "fotos": null,
+      "usuario_id": "",
+      "id": "TKBe7oA"
     }
   ]
 }
