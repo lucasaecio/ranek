@@ -16,7 +16,8 @@ export default createStore({
       bairro: '',
       cidade: '',
       estado: ''
-    }
+    },
+    user_products: null
   },
   mutations: {
     UPDATE_LOGIN(state, payload) {
@@ -24,9 +25,20 @@ export default createStore({
     },
     UPDATE_USUARIO(state, payload) {
       state.user = Object.assign(state.user, payload);
+    },
+    UPDATE_USER_PRODUCTS(state, payload) {
+      state.user_products = payload;
+    },
+    ADD_USER_PRODUCTS(state, payload) {
+      state.user_products.unshit(payload);
     }
   },
   actions: {
+    getUserProducts(context) {
+      api.get(`/produto?usuario_id=${context.state.user.id}`).then(response => {
+        context.commit("UPDATE_USER_PRODUCTS", response.data);
+      })
+    },
     getUsuario({commit}, payload) {
       return api.get(`/usuario/${payload}`).then(response => {
         commit("UPDATE_USUARIO",  response.data)
