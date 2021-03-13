@@ -2,7 +2,7 @@
   <ul v-if="paginasTotal > 1">
     <router-link :to="{query: query(1)}"> &lt;&lt;&lt; </router-link>
     <li v-for="pagina in paginas" :key="pagina">
-      <router-link :to="{query: query(pagina)}" :class="{'router-link-exact-active': this.$route.query['_page'] == pagina}" exact-active-class="">
+      <router-link :to="{query: query(pagina)}" :class="{'router-link-exact-active':  currentPage == pagina}" exact-active-class="">
         {{pagina}}
       </router-link>
     </li>
@@ -12,6 +12,11 @@
 
 <script>
 export default {
+  data() {
+    return {
+      currentPage: null
+    }
+  },
   props: {
     produtosPorPagina: {
       type: Number,
@@ -32,7 +37,7 @@ export default {
   },
   computed: {
     paginas() {
-      const currentPage = Number(this.$route.query._page);
+      this.currentPage = Number(this.$route.query._page)
       const rangePage = 9;
       const offsetRange = Math.ceil(rangePage / 2);
       const total = this.paginasTotal;
@@ -42,7 +47,7 @@ export default {
         pagesArray.push(i)
       }
 
-      pagesArray.splice(0, currentPage - offsetRange);
+      pagesArray.splice(0, this.currentPage - offsetRange);
       pagesArray.splice(rangePage, total);
 
       return pagesArray
