@@ -1,6 +1,6 @@
 <template>
 <form>
-    <div class="usuairo" v-if="mostrarDadosLogin">
+    <div class="usuario" v-if="mostrarDadosLogin">
       <label for="nome">Nome</label>
       <input id="nome" name="nome" type="text" v-model="nome">
       <label for="email">Email</label>

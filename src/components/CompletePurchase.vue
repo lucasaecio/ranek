@@ -37,12 +37,27 @@ export default {
     },
     methods: {
         criarTransacao() {
-            api.post("/transacao", this.compra).then(() => {
+            return api.post("/transacao", this.compra).then(() => {
                 this.$router.push({name: "user-purchase"})
             })
         },
+        async criarUsuario() {
+            try {
+                await this.$store.dispatch("setUsuario", this.$store.state.user);
+                await this.$store.dispatch("getUsuario", this.$store.state.user.email);
+
+                await this.criarTransacao();
+            } catch(error) {
+                console.log(error)
+            }
+        },
         finalizarCompra() {
-            this.criarTransacao();
+            if(this.$store.state.isLoggedIn) {
+
+                this.criarTransacao();
+            } else {
+                this.criarUsuario()
+            }
         }
     }
 

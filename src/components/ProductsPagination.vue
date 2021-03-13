@@ -37,7 +37,6 @@ export default {
   },
   computed: {
     paginas() {
-      this.currentPage = Number(this.$route.query._page)
       const rangePage = 9;
       const offsetRange = Math.ceil(rangePage / 2);
       const total = this.paginasTotal;
@@ -56,6 +55,9 @@ export default {
       const total = this.produtosTotal / this.produtosPorPagina;
       return total !== Infinity ? Math.ceil(total) : 0;
     }
+  },
+  created() {
+    this.currentPage = Number(this.$route.query._page)
   }
 };
 </script>
