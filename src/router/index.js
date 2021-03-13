@@ -13,7 +13,8 @@ const routes = [
     path: '/',
     name: 'Home',
     component: Home,
-    props: true
+    props: true, 
+    query: { _page: 1 }
   }, {
     path: '/produto/:id',
     name: 'produto',

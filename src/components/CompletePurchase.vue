@@ -1,0 +1,54 @@
+<template>
+<section>
+    <h2>Endereço de Envio</h2>
+    <user-form>
+        <button class="btn" @click.prevent="finalizarCompra">Finalizar Compra</button>
+    </user-form>
+</section>
+</template>
+
+<script>
+import UserForm from '@/components/UserForm.vue'
+import { api } from '@/services.js'
+import {mapState} from 'vuex'
+
+export default {
+    name: "CompletePurchase",
+    components: { UserForm },
+    props: ["produto"],
+    computed: {
+        ...mapState(["user"]),
+        compra() {
+            return {
+                comprador_id: this.user.email,
+                vendedor_id: this.produto.usuario_id,
+                produto: this.produto,
+                endereco_id: { 
+                    cep: this.user.cep,
+                    rua: this.user.rua,
+                    numero: this.user.numero,
+                    bairro: this.user.bairro,
+                    cidade: this.user.cidade,
+                    estado: this.user.estado,
+                }
+
+            }
+        }
+    },
+    methods: {
+        criarTransacao() {
+            api.post("/transacao", this.compra).then(() => {
+                this.$router.push({name: "user-purchase"})
+            })
+        },
+        finalizarCompra() {
+            this.criarTransacao();
+        }
+    }
+
+}
+</script>
+
+<style>
+
+</style>

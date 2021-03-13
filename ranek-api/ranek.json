@@ -1,4 +1,28 @@
 {
+  "transacao": [
+    {
+      "comprador_id": "teste1",
+      "vendedor_id": "teste1",
+      "produto": {
+        "id": "smartphone",
+        "nome": "Smartphone",
+        "usuario_id": "teste1",
+        "preco": "1999",
+        "vendido": "false",
+        "descricao": "Esse é um novo smartphone.",
+        "fotos": null
+      },
+      "endereco_id": {
+        "cep": "12345678",
+        "rua": "Rua Ali Perto",
+        "numero": "25",
+        "bairro": "testa",
+        "cidade": "Rio de Janeiro",
+        "estado": "RJ"
+      },
+      "id": 1
+    }
+  ],
   "usuario": [
     {
       "0": {
