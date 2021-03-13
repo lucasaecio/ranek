@@ -1,15 +1,50 @@
 {
   "usuario": [
     {
+      "0": {
+        "id": "teste1",
+        "email": "teste1",
+        "nome": "André Rafael",
+        "senha": "123",
+        "rua": "Rua Ali Perto",
+        "cep": "12345678",
+        "numero": "25",
+        "estado": "RJ",
+        "cidade": "Rio de Janeiro"
+      },
+      "1": {
+        "id": "teste2",
+        "email": "teste2",
+        "nome": "João Marcos",
+        "senha": "123",
+        "rua": "Rua Ali Perto",
+        "cep": "12345678",
+        "numero": "25",
+        "estado": "RJ",
+        "cidade": "Rio de Janeiro"
+      },
+      "2": {
+        "id": "teste@teste.com",
+        "nome": "teste",
+        "email": "teste@teste.com",
+        "senha": "teste",
+        "cep": "51130115",
+        "rua": "Rua Marechal Juarez Távora",
+        "numero": "320",
+        "bairro": "Boa Viagem",
+        "cidade": "Recife",
+        "estado": "PE"
+      },
       "id": "teste1",
+      "nome": "Andrezinho",
       "email": "teste1",
-      "nome": "André Rafael",
       "senha": "123",
-      "rua": "Rua Ali Perto",
       "cep": "12345678",
+      "rua": "Rua Ali Perto",
       "numero": "25",
-      "estado": "RJ",
-      "cidade": "Rio de Janeiro"
+      "bairro": "testa",
+      "cidade": "Rio de Janeiro",
+      "estado": "RJ"
     },
     {
       "id": "teste2",
@@ -37,30 +72,12 @@
   ],
   "produto": [
     {
-      "id": "notebook",
-      "nome": "Notebook",
-      "usuario_id": "teste1",
-      "preco": "4999",
-      "vendido": "false",
-      "descricao": "Esse é um novo notebook.",
-      "fotos": null
-    },
-    {
       "id": "smartphone",
       "nome": "Smartphone",
       "usuario_id": "teste1",
       "preco": "1999",
       "vendido": "false",
       "descricao": "Esse é um novo smartphone.",
-      "fotos": null
-    },
-    {
-      "id": "tablet",
-      "nome": "Tablet",
-      "usuario_id": "teste1",
-      "preco": "1399",
-      "vendido": "false",
-      "descricao": "Esse é um novo tablet.",
       "fotos": null
     },
     {
@@ -467,14 +484,6 @@
       "vendido": "false",
       "descricao": "Esse é um novo tablet.",
       "fotos": null
-    },
-    {
-      "nome": "asf",
-      "preco": "12",
-      "descricao": "asf",
-      "fotos": null,
-      "usuario_id": "",
-      "id": "TKBe7oA"
     },
     {
       "nome": "asfasf",
@@ -483,6 +492,14 @@
       "fotos": null,
       "usuario_id": "",
       "id": "_6lLjpx"
+    },
+    {
+      "nome": "a",
+      "preco": "",
+      "descricao": "",
+      "fotos": null,
+      "usuario_id": "",
+      "id": "thD4_NK"
     }
   ]
 }
