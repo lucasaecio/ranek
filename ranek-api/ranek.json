@@ -21,6 +21,28 @@
         "estado": "RJ"
       },
       "id": 1
+    },
+    {
+      "comprador_id": "teste2@teste.com",
+      "vendedor_id": "teste1",
+      "produto": {
+        "id": "notebook",
+        "nome": "Notebook",
+        "usuario_id": "teste1",
+        "preco": "4999",
+        "vendido": "false",
+        "descricao": "Esse é um novo notebook.",
+        "fotos": null
+      },
+      "endereco_id": {
+        "cep": "51130115",
+        "rua": "Rua Marechal Juarez Távora",
+        "numero": "320",
+        "bairro": "Boa Viagem",
+        "cidade": "Recife",
+        "estado": "PE"
+      },
+      "id": 2
     }
   ],
   "usuario": [
@@ -86,6 +108,18 @@
       "nome": "teste",
       "email": "teste@teste.com",
       "senha": "teste",
+      "cep": "51130115",
+      "rua": "Rua Marechal Juarez Távora",
+      "numero": "320",
+      "bairro": "Boa Viagem",
+      "cidade": "Recife",
+      "estado": "PE"
+    },
+    {
+      "id": "teste2@teste.com",
+      "nome": "Joaozinho",
+      "email": "teste2@teste.com",
+      "senha": "joaozinho",
       "cep": "51130115",
       "rua": "Rua Marechal Juarez Távora",
       "numero": "320",
