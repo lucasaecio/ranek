@@ -130,94 +130,18 @@
   ],
   "produto": [
     {
-      "id": "smartphone",
-      "nome": "Smartphone",
-      "usuario_id": "teste1",
-      "preco": "1999",
-      "vendido": "false",
-      "descricao": "Esse é um novo smartphone.",
-      "fotos": null
-    },
-    {
-      "id": "notebook",
-      "nome": "Notebook",
-      "usuario_id": "teste1",
-      "preco": "4999",
-      "vendido": "false",
-      "descricao": "Esse é um novo notebook.",
-      "fotos": null
-    },
-    {
-      "id": "smartphone",
-      "nome": "Smartphone",
-      "usuario_id": "teste1",
-      "preco": "1999",
-      "vendido": "false",
-      "descricao": "Esse é um novo smartphone.",
-      "fotos": null
-    },
-    {
-      "id": "tablet",
-      "nome": "Tablet",
-      "usuario_id": "teste1",
-      "preco": "1399",
-      "vendido": "false",
-      "descricao": "Esse é um novo tablet.",
-      "fotos": null
-    },
-    {
-      "id": "notebook",
-      "nome": "Notebook",
-      "usuario_id": "teste1",
-      "preco": "4999",
-      "vendido": "false",
-      "descricao": "Esse é um novo notebook.",
-      "fotos": null
-    },
-    {
-      "id": "smartphone",
-      "nome": "Smartphone",
-      "usuario_id": "teste1",
-      "preco": "1999",
-      "vendido": "false",
-      "descricao": "Esse é um novo smartphone.",
-      "fotos": null
-    },
-    {
-      "id": "tablet",
-      "nome": "Tablet",
-      "usuario_id": "teste1",
-      "preco": "1399",
-      "vendido": "false",
-      "descricao": "Esse é um novo tablet.",
-      "fotos": null
-    },
-    {
-      "id": "notebook",
-      "nome": "Notebook",
-      "usuario_id": "teste1",
-      "preco": "4999",
-      "vendido": "false",
-      "descricao": "Esse é um novo notebook.",
-      "fotos": null
-    },
-    {
-      "id": "smartphone",
+      "id": "smartphone2",
       "nome": "Smartphone 2",
       "usuario_id": "teste1",
       "preco": "1999",
       "vendido": "false",
       "descricao": "Esse é um novo smartphone.",
-      "fotos": null
-    },
-    {
-      "id": "tablet",
-      "nome": "Tablet",
-      "usuario_id": "teste1",
-      "preco": "1399",
-      "vendido": "false",
-      "descricao": "Esse é um novo tablet.",
-      "fotos": null
+      "fotos": [
+        {
+          "src": "https://cdn2.ecycle.com.br/images/Fino/pegada-ambiental-smartphone-telefone-impacto-ambiental-produo.jpg",
+          "titulo": "smartphone"
+        }
+      ]
     },
     {
       "id": "notebook",
@@ -226,7 +150,12 @@
       "preco": "4999",
       "vendido": "false",
       "descricao": "Esse é um novo notebook.",
-      "fotos": null
+      "fotos": [
+        {
+          "src": "https://img.ibxk.com.br/2019/12/20/20164319993439.jpg?w=1120&h=420&mode=crop&scale=both",
+          "titulo": "notebook"
+        }
+      ]
     },
     {
       "id": "smartphone",
@@ -235,7 +164,12 @@
       "preco": "1999",
       "vendido": "false",
       "descricao": "Esse é um novo smartphone.",
-      "fotos": null
+      "fotos": [
+        {
+          "src": "https://i.zst.com.br/images/celular-ate-800-reais-9-smartphones-para-comprar-em-2019-photo975556602-44-20-16.jpg",
+          "titulo": "smartphone"
+        }
+      ]
     },
     {
       "id": "tablet",
@@ -244,88 +178,26 @@
       "preco": "1399",
       "vendido": "false",
       "descricao": "Esse é um novo tablet.",
-      "fotos": null
+      "fotos": [
+        {
+          "src": "https://http2.mlstatic.com/D_NQ_NP_862023-MLA42765140797_072020-O.jpg",
+          "titulo": "notebook"
+        }
+      ]
     },
     {
-      "id": "notebook",
-      "nome": "Notebook",
-      "usuario_id": "teste1",
-      "preco": "4999",
-      "vendido": "false",
-      "descricao": "Esse é um novo notebook.",
-      "fotos": null
-    },
-    {
-      "id": "smartphone",
-      "nome": "Smartphone",
-      "usuario_id": "teste1",
-      "preco": "1999",
-      "vendido": "false",
-      "descricao": "Esse é um novo smartphone.",
-      "fotos": null
-    },
-    {
-      "id": "tablet",
-      "nome": "Tablet",
-      "usuario_id": "teste1",
-      "preco": "1399",
-      "vendido": "false",
-      "descricao": "Esse é um novo tablet.",
-      "fotos": null
-    },
-    {
-      "id": "notebook",
-      "nome": "Notebook",
-      "usuario_id": "teste1",
-      "preco": "4999",
-      "vendido": "false",
-      "descricao": "Esse é um novo notebook.",
-      "fotos": null
-    },
-    {
-      "id": "smartphone",
-      "nome": "Smartphone",
-      "usuario_id": "teste1",
-      "preco": "1999",
-      "vendido": "false",
-      "descricao": "Esse é um novo smartphone.",
-      "fotos": null
-    },
-    {
-      "id": "tablet",
-      "nome": "Tablet",
-      "usuario_id": "teste1",
-      "preco": "1399",
-      "vendido": "false",
-      "descricao": "Esse é um novo tablet.",
-      "fotos": null
-    },
-    {
-      "id": "notebook",
-      "nome": "Notebook",
-      "usuario_id": "teste1",
-      "preco": "4999",
-      "vendido": "false",
-      "descricao": "Esse é um novo notebook.",
-      "fotos": null
-    },
-    {
-      "id": "smartphone",
+      "id": "smartphone2",
       "nome": "Smartphone 2",
       "usuario_id": "teste1",
       "preco": "1999",
       "vendido": "false",
       "descricao": "Esse é um novo smartphone.",
-      "fotos": null
-    },
-    {
-      "id": "tablet",
-      "nome": "Tablet",
-      "usuario_id": "teste1",
-      "preco": "1399",
-      "vendido": "false",
-      "descricao": "Esse é um novo tablet.",
-      "fotos": null
+      "fotos": [
+        {
+          "src": "https://cdn2.ecycle.com.br/images/Fino/pegada-ambiental-smartphone-telefone-impacto-ambiental-produo.jpg",
+          "titulo": "smartphone"
+        }
+      ]
     },
     {
       "id": "notebook",
@@ -334,7 +206,12 @@
       "preco": "4999",
       "vendido": "false",
       "descricao": "Esse é um novo notebook.",
-      "fotos": null
+      "fotos": [
+        {
+          "src": "https://img.ibxk.com.br/2019/12/20/20164319993439.jpg?w=1120&h=420&mode=crop&scale=both",
+          "titulo": "notebook"
+        }
+      ]
     },
     {
       "id": "smartphone",
@@ -343,7 +220,12 @@
       "preco": "1999",
       "vendido": "false",
       "descricao": "Esse é um novo smartphone.",
-      "fotos": null
+      "fotos": [
+        {
+          "src": "https://i.zst.com.br/images/celular-ate-800-reais-9-smartphones-para-comprar-em-2019-photo975556602-44-20-16.jpg",
+          "titulo": "smartphone"
+        }
+      ]
     },
     {
       "id": "tablet",
@@ -352,88 +234,26 @@
       "preco": "1399",
       "vendido": "false",
       "descricao": "Esse é um novo tablet.",
-      "fotos": null
+      "fotos": [
+        {
+          "src": "https://http2.mlstatic.com/D_NQ_NP_862023-MLA42765140797_072020-O.jpg",
+          "titulo": "notebook"
+        }
+      ]
     },
     {
-      "id": "notebook",
-      "nome": "Notebook",
-      "usuario_id": "teste1",
-      "preco": "4999",
-      "vendido": "false",
-      "descricao": "Esse é um novo notebook.",
-      "fotos": null
-    },
-    {
-      "id": "smartphone",
-      "nome": "Smartphone",
-      "usuario_id": "teste1",
-      "preco": "1999",
-      "vendido": "false",
-      "descricao": "Esse é um novo smartphone.",
-      "fotos": null
-    },
-    {
-      "id": "tablet",
-      "nome": "Tablet",
-      "usuario_id": "teste1",
-      "preco": "1399",
-      "vendido": "false",
-      "descricao": "Esse é um novo tablet.",
-      "fotos": null
-    },
-    {
-      "id": "notebook",
-      "nome": "Notebook",
-      "usuario_id": "teste1",
-      "preco": "4999",
-      "vendido": "false",
-      "descricao": "Esse é um novo notebook.",
-      "fotos": null
-    },
-    {
-      "id": "smartphone",
-      "nome": "Smartphone",
-      "usuario_id": "teste1",
-      "preco": "1999",
-      "vendido": "false",
-      "descricao": "Esse é um novo smartphone.",
-      "fotos": null
-    },
-    {
-      "id": "tablet",
-      "nome": "Tablet",
-      "usuario_id": "teste1",
-      "preco": "1399",
-      "vendido": "false",
-      "descricao": "Esse é um novo tablet.",
-      "fotos": null
-    },
-    {
-      "id": "notebook",
-      "nome": "Notebook",
-      "usuario_id": "teste1",
-      "preco": "4999",
-      "vendido": "false",
-      "descricao": "Esse é um novo notebook.",
-      "fotos": null
-    },
-    {
-      "id": "smartphone",
+      "id": "smartphone2",
       "nome": "Smartphone 2",
       "usuario_id": "teste1",
       "preco": "1999",
       "vendido": "false",
       "descricao": "Esse é um novo smartphone.",
-      "fotos": null
-    },
-    {
-      "id": "tablet",
-      "nome": "Tablet",
-      "usuario_id": "teste1",
-      "preco": "1399",
-      "vendido": "false",
-      "descricao": "Esse é um novo tablet.",
-      "fotos": null
+      "fotos": [
+        {
+          "src": "https://cdn2.ecycle.com.br/images/Fino/pegada-ambiental-smartphone-telefone-impacto-ambiental-produo.jpg",
+          "titulo": "smartphone"
+        }
+      ]
     },
     {
       "id": "notebook",
@@ -442,7 +262,12 @@
       "preco": "4999",
       "vendido": "false",
       "descricao": "Esse é um novo notebook.",
-      "fotos": null
+      "fotos": [
+        {
+          "src": "https://img.ibxk.com.br/2019/12/20/20164319993439.jpg?w=1120&h=420&mode=crop&scale=both",
+          "titulo": "notebook"
+        }
+      ]
     },
     {
       "id": "smartphone",
@@ -451,7 +276,12 @@
       "preco": "1999",
       "vendido": "false",
       "descricao": "Esse é um novo smartphone.",
-      "fotos": null
+      "fotos": [
+        {
+          "src": "https://i.zst.com.br/images/celular-ate-800-reais-9-smartphones-para-comprar-em-2019-photo975556602-44-20-16.jpg",
+          "titulo": "smartphone"
+        }
+      ]
     },
     {
       "id": "tablet",
@@ -460,79 +290,54 @@
       "preco": "1399",
       "vendido": "false",
       "descricao": "Esse é um novo tablet.",
-      "fotos": null
+      "fotos": [
+        {
+          "src": "https://http2.mlstatic.com/D_NQ_NP_862023-MLA42765140797_072020-O.jpg",
+          "titulo": "notebook"
+        }
+      ]
     },
     {
-      "id": "notebook",
-      "nome": "Notebook",
-      "usuario_id": "teste1",
-      "preco": "4999",
-      "vendido": "false",
-      "descricao": "Esse é um novo notebook.",
-      "fotos": null
-    },
-    {
-      "id": "smartphone",
-      "nome": "Smartphone",
-      "usuario_id": "teste1",
-      "preco": "1999",
-      "vendido": "false",
-      "descricao": "Esse é um novo smartphone.",
-      "fotos": null
-    },
-    {
-      "id": "tablet",
-      "nome": "Tablet",
-      "usuario_id": "teste1",
-      "preco": "1399",
-      "vendido": "false",
-      "descricao": "Esse é um novo tablet.",
-      "fotos": null
-    },
-    {
-      "id": "notebook",
-      "nome": "Notebook",
-      "usuario_id": "teste1",
-      "preco": "4999",
-      "vendido": "false",
-      "descricao": "Esse é um novo notebook.",
-      "fotos": null
-    },
-    {
-      "id": "smartphone",
-      "nome": "Smartphone",
-      "usuario_id": "teste1",
-      "preco": "1999",
-      "vendido": "false",
-      "descricao": "Esse é um novo smartphone.",
-      "fotos": null
-    },
-    {
-      "id": "tablet",
-      "nome": "Tablet",
-      "usuario_id": "teste1",
-      "preco": "1399",
-      "vendido": "false",
-      "descricao": "Esse é um novo tablet.",
-      "fotos": null
-    },
-    {
-      "id": "notebook",
-      "nome": "Notebook",
-      "usuario_id": "teste1",
-      "preco": "4999",
-      "vendido": "false",
-      "descricao": "Esse é um novo notebook.",
-      "fotos": null
-    },
-    {
-      "id": "smartphone",
+      "id": "smartphone2",
       "nome": "Smartphone 2",
       "usuario_id": "teste1",
       "preco": "1999",
       "vendido": "false",
       "descricao": "Esse é um novo smartphone.",
-      "fotos": null
+      "fotos": [
+        {
+          "src": "https://cdn2.ecycle.com.br/images/Fino/pegada-ambiental-smartphone-telefone-impacto-ambiental-produo.jpg",
+          "titulo": "smartphone"
+        }
+      ]
+    },
+    {
+      "id": "notebook",
+      "nome": "Notebook",
+      "usuario_id": "teste1",
+      "preco": "4999",
+      "vendido": "false",
+      "descricao": "Esse é um novo notebook.",
+      "fotos": [
+        {
+          "src": "https://img.ibxk.com.br/2019/12/20/20164319993439.jpg?w=1120&h=420&mode=crop&scale=both",
+          "titulo": "notebook"
+        }
+      ]
+    },
+    {
+      "id": "smartphone",
+      "nome": "Smartphone",
+      "usuario_id": "teste1",
+      "preco": "1999",
+      "vendido": "false",
+      "descricao": "Esse é um novo smartphone.",
+      "fotos": [
+        {
+          "src": "https://i.zst.com.br/images/celular-ate-800-reais-9-smartphones-para-comprar-em-2019-photo975556602-44-20-16.jpg",
+          "titulo": "smartphone"
+        }
+      ]
     },
     {
       "id": "tablet",
@@ -541,23 +346,292 @@
       "preco": "1399",
       "vendido": "false",
       "descricao": "Esse é um novo tablet.",
-      "fotos": null
+      "fotos": [
+        {
+          "src": "https://http2.mlstatic.com/D_NQ_NP_862023-MLA42765140797_072020-O.jpg",
+          "titulo": "notebook"
+        }
+      ]
     },
     {
-      "nome": "asfasf",
-      "preco": "131",
-      "descricao": "asf",
-      "fotos": null,
-      "usuario_id": "",
-      "id": "_6lLjpx"
+      "id": "smartphone2",
+      "nome": "Smartphone 2",
+      "usuario_id": "teste1",
+      "preco": "1999",
+      "vendido": "false",
+      "descricao": "Esse é um novo smartphone.",
+      "fotos": [
+        {
+          "src": "https://cdn2.ecycle.com.br/images/Fino/pegada-ambiental-smartphone-telefone-impacto-ambiental-produo.jpg",
+          "titulo": "smartphone"
+        }
+      ]
     },
     {
-      "nome": "a",
-      "preco": "",
-      "descricao": "",
-      "fotos": null,
-      "usuario_id": "",
-      "id": "thD4_NK"
+      "id": "notebook",
+      "nome": "Notebook",
+      "usuario_id": "teste1",
+      "preco": "4999",
+      "vendido": "false",
+      "descricao": "Esse é um novo notebook.",
+      "fotos": [
+        {
+          "src": "https://img.ibxk.com.br/2019/12/20/20164319993439.jpg?w=1120&h=420&mode=crop&scale=both",
+          "titulo": "notebook"
+        }
+      ]
+    },
+    {
+      "id": "smartphone",
+      "nome": "Smartphone",
+      "usuario_id": "teste1",
+      "preco": "1999",
+      "vendido": "false",
+      "descricao": "Esse é um novo smartphone.",
+      "fotos": [
+        {
+          "src": "https://i.zst.com.br/images/celular-ate-800-reais-9-smartphones-para-comprar-em-2019-photo975556602-44-20-16.jpg",
+          "titulo": "smartphone"
+        }
+      ]
+    },
+    {
+      "id": "tablet",
+      "nome": "Tablet",
+      "usuario_id": "teste1",
+      "preco": "1399",
+      "vendido": "false",
+      "descricao": "Esse é um novo tablet.",
+      "fotos": [
+        {
+          "src": "https://http2.mlstatic.com/D_NQ_NP_862023-MLA42765140797_072020-O.jpg",
+          "titulo": "notebook"
+        }
+      ]
+    },
+    {
+      "id": "smartphone2",
+      "nome": "Smartphone 2",
+      "usuario_id": "teste1",
+      "preco": "1999",
+      "vendido": "false",
+      "descricao": "Esse é um novo smartphone.",
+      "fotos": [
+        {
+          "src": "https://cdn2.ecycle.com.br/images/Fino/pegada-ambiental-smartphone-telefone-impacto-ambiental-produo.jpg",
+          "titulo": "smartphone"
+        }
+      ]
+    },
+    {
+      "id": "notebook",
+      "nome": "Notebook",
+      "usuario_id": "teste1",
+      "preco": "4999",
+      "vendido": "false",
+      "descricao": "Esse é um novo notebook.",
+      "fotos": [
+        {
+          "src": "https://img.ibxk.com.br/2019/12/20/20164319993439.jpg?w=1120&h=420&mode=crop&scale=both",
+          "titulo": "notebook"
+        }
+      ]
+    },
+    {
+      "id": "smartphone",
+      "nome": "Smartphone",
+      "usuario_id": "teste1",
+      "preco": "1999",
+      "vendido": "false",
+      "descricao": "Esse é um novo smartphone.",
+      "fotos": [
+        {
+          "src": "https://i.zst.com.br/images/celular-ate-800-reais-9-smartphones-para-comprar-em-2019-photo975556602-44-20-16.jpg",
+          "titulo": "smartphone"
+        }
+      ]
+    },
+    {
+      "id": "tablet",
+      "nome": "Tablet",
+      "usuario_id": "teste1",
+      "preco": "1399",
+      "vendido": "false",
+      "descricao": "Esse é um novo tablet.",
+      "fotos": [
+        {
+          "src": "https://http2.mlstatic.com/D_NQ_NP_862023-MLA42765140797_072020-O.jpg",
+          "titulo": "notebook"
+        }
+      ]
+    },
+    {
+      "id": "smartphone2",
+      "nome": "Smartphone 2",
+      "usuario_id": "teste1",
+      "preco": "1999",
+      "vendido": "false",
+      "descricao": "Esse é um novo smartphone.",
+      "fotos": [
+        {
+          "src": "https://cdn2.ecycle.com.br/images/Fino/pegada-ambiental-smartphone-telefone-impacto-ambiental-produo.jpg",
+          "titulo": "smartphone"
+        }
+      ]
+    },
+    {
+      "id": "notebook",
+      "nome": "Notebook",
+      "usuario_id": "teste1",
+      "preco": "4999",
+      "vendido": "false",
+      "descricao": "Esse é um novo notebook.",
+      "fotos": [
+        {
+          "src": "https://img.ibxk.com.br/2019/12/20/20164319993439.jpg?w=1120&h=420&mode=crop&scale=both",
+          "titulo": "notebook"
+        }
+      ]
+    },
+    {
+      "id": "smartphone",
+      "nome": "Smartphone",
+      "usuario_id": "teste1",
+      "preco": "1999",
+      "vendido": "false",
+      "descricao": "Esse é um novo smartphone.",
+      "fotos": [
+        {
+          "src": "https://i.zst.com.br/images/celular-ate-800-reais-9-smartphones-para-comprar-em-2019-photo975556602-44-20-16.jpg",
+          "titulo": "smartphone"
+        }
+      ]
+    },
+    {
+      "id": "tablet",
+      "nome": "Tablet",
+      "usuario_id": "teste1",
+      "preco": "1399",
+      "vendido": "false",
+      "descricao": "Esse é um novo tablet.",
+      "fotos": [
+        {
+          "src": "https://http2.mlstatic.com/D_NQ_NP_862023-MLA42765140797_072020-O.jpg",
+          "titulo": "notebook"
+        }
+      ]
+    },
+    {
+      "id": "smartphone2",
+      "nome": "Smartphone 2",
+      "usuario_id": "teste1",
+      "preco": "1999",
+      "vendido": "false",
+      "descricao": "Esse é um novo smartphone.",
+      "fotos": [
+        {
+          "src": "https://cdn2.ecycle.com.br/images/Fino/pegada-ambiental-smartphone-telefone-impacto-ambiental-produo.jpg",
+          "titulo": "smartphone"
+        }
+      ]
+    },
+    {
+      "id": "notebook",
+      "nome": "Notebook",
+      "usuario_id": "teste1",
+      "preco": "4999",
+      "vendido": "false",
+      "descricao": "Esse é um novo notebook.",
+      "fotos": [
+        {
+          "src": "https://img.ibxk.com.br/2019/12/20/20164319993439.jpg?w=1120&h=420&mode=crop&scale=both",
+          "titulo": "notebook"
+        }
+      ]
+    },
+    {
+      "id": "smartphone",
+      "nome": "Smartphone",
+      "usuario_id": "teste1",
+      "preco": "1999",
+      "vendido": "false",
+      "descricao": "Esse é um novo smartphone.",
+      "fotos": [
+        {
+          "src": "https://i.zst.com.br/images/celular-ate-800-reais-9-smartphones-para-comprar-em-2019-photo975556602-44-20-16.jpg",
+          "titulo": "smartphone"
+        }
+      ]
+    },
+    {
+      "id": "tablet",
+      "nome": "Tablet",
+      "usuario_id": "teste1",
+      "preco": "1399",
+      "vendido": "false",
+      "descricao": "Esse é um novo tablet.",
+      "fotos": [
+        {
+          "src": "https://http2.mlstatic.com/D_NQ_NP_862023-MLA42765140797_072020-O.jpg",
+          "titulo": "notebook"
+        }
+      ]
+    },
+    {
+      "id": "smartphone2",
+      "nome": "Smartphone 2",
+      "usuario_id": "teste1",
+      "preco": "1999",
+      "vendido": "false",
+      "descricao": "Esse é um novo smartphone.",
+      "fotos": [
+        {
+          "src": "https://cdn2.ecycle.com.br/images/Fino/pegada-ambiental-smartphone-telefone-impacto-ambiental-produo.jpg",
+          "titulo": "smartphone"
+        }
+      ]
+    },
+    {
+      "id": "notebook",
+      "nome": "Notebook",
+      "usuario_id": "teste1",
+      "preco": "4999",
+      "vendido": "false",
+      "descricao": "Esse é um novo notebook.",
+      "fotos": [
+        {
+          "src": "https://img.ibxk.com.br/2019/12/20/20164319993439.jpg?w=1120&h=420&mode=crop&scale=both",
+          "titulo": "notebook"
+        }
+      ]
+    },
+    {
+      "id": "smartphone",
+      "nome": "Smartphone",
+      "usuario_id": "teste1",
+      "preco": "1999",
+      "vendido": "false",
+      "descricao": "Esse é um novo smartphone.",
+      "fotos": [
+        {
+          "src": "https://i.zst.com.br/images/celular-ate-800-reais-9-smartphones-para-comprar-em-2019-photo975556602-44-20-16.jpg",
+          "titulo": "smartphone"
+        }
+      ]
+    },
+    {
+      "id": "tablet",
+      "nome": "Tablet",
+      "usuario_id": "teste1",
+      "preco": "1399",
+      "vendido": "false",
+      "descricao": "Esse é um novo tablet.",
+      "fotos": [
+        {
+          "src": "https://http2.mlstatic.com/D_NQ_NP_862023-MLA42765140797_072020-O.jpg",
+          "titulo": "notebook"
+        }
+      ]
     }
   ]
 }
